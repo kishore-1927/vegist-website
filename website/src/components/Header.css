@@ -1,0 +1,56 @@
+.first-nav{
+    background-color: rgb(77, 77, 77);
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+}
+.first-nav a{
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.second-nav{
+    justify-content: space-between;
+    margin: 2px solid red;
+    align-items: center;
+}
+.phone-no{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.phone-no:hover{
+    color: orange;
+    transition: .5s;
+}
+.third-nav{
+    justify-content: space-between;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+.menu{
+    font-size: 14px;
+    font-weight: 600;
+}
+.third-nav a{
+    text-decoration: none;
+    color: black;    
+}
+.menu a:hover{
+    color: orange;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+.third-nav-search{
+    background-color: rgb(243, 243, 243);
+    font-size: 15px;
+    border: none;
+    width: 300px;
+}
+.third-nav-search:focus{
+    outline: none;
+}
+.search-btn{
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+

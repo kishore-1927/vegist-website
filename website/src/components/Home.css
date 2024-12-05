@@ -1,0 +1,90 @@
+ .carousel-caption {
+     height: 200px;
+     width: 350px;
+     text-align: start;
+ }
+
+ .carousel-caption p {
+     color: rgba(255, 64, 0, 0.582);
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .carousel-caption h1 {
+     color: black;
+     font-size: 60px;
+     font-weight: 600;
+ }
+
+ .carousel-caption button {
+     background-color: rgb(255, 183, 1);
+     color: white;
+     font-size: 18px;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     box-shadow: 5px 5px 5px black;
+ }
+
+ .card-img-top {
+     width: 70px;
+ }
+
+ .items-container {
+     text-align: center;
+     overflow-x: scroll;
+     overflow-y: hidden;
+ }
+ .items-container::-webkit-scrollbar{
+        height: 10px;
+        width: 100px;
+ }
+ .items-container::-webkit-scrollbar-thumb{
+   border-radius: 30px;
+ }
+
+ .items {
+     background-color: rgb(243, 243, 243);
+ }
+
+ .shopnow-container img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+ }
+ .bread-content{
+    position: relative;
+    top: 80px;
+    left: 50px;
+
+ }
+ .shopnow-container img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+ }
+
+ .trending{
+    position: relative;
+    top: 150px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+ }
+ 
+.rate{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card{
+    border: none;
+}
+.trend-item:hover .img-icons{
+    display: block;
+    display: flex;
+    position: relative;
+}
+.img-icons{
+    display: none;
+}
+
+
+

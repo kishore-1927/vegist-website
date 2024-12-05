@@ -1,0 +1,17 @@
+.first-line{
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    height: 40px;
+    align-content: center;
+    
+}
+
+.first-line a{
+    text-decoration: none;
+    color: grey;
+}
+.left-nav{
+    position: fixed;
+    left: 0;
+    background-color: grey;
+}
